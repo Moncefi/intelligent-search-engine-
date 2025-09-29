@@ -1,0 +1,15 @@
+﻿fastapi==0.116.1
+uvicorn[standard]==0.32.0
+pydantic==2.11.7
+pydantic-settings==2.10.1
+python-dotenv==1.0.1
+sentence-transformers==5.1.0
+huggingface-hub==0.34.4
+faiss-cpu==1.12.0
+pymongo==4.14.1
+
+# Installez torch sÃ©parÃ©ment selon la machine cible (CPU/GPU).
+# Exemples:
+#   CPU Windows:    pip install torch==2.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+#   CPU Linux:      pip install torch==2.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+#   CUDA 12.1:      pip install torch==2.3.1+cu121 -f https://download.pytorch.org/whl/torch_stable.html

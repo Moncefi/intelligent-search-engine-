@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic>=2
+pymongo>=4.6
+sentence-transformers>=3
+numpy
+tqdm
+pydantic-settings

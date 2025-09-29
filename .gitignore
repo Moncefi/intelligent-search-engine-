@@ -1,0 +1,17 @@
+﻿# venv / caches
+.venv/
+__pycache__/
+*.pyc
+
+# logs / temp
+logs/
+*.log
+
+# fichiers locaux
+.env
+
+# artefacts d'index
+indexes/
+
+# gros assets Ã  ne pas versionner (modÃ¨les)
+models/
